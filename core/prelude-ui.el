@@ -72,8 +72,9 @@
                                             (abbreviate-file-name (buffer-file-name))
                                           "%b"))))
 
-;; use zenburn as the default theme
-(load-theme 'zenburn t)
+;; use solarized-light as the default theme
+(load-theme 'solarized-light t)
+(set-face-attribute 'default nil :height 140)
 
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here

@@ -45,6 +45,7 @@
     (define-key newmap (kbd "C-c +") nil)
     (define-key newmap (kbd "C-c -") nil)
     (make-local-variable 'minor-mode-overriding-map-alist)
+    (setq truncate-lines t)
     (push `(prelude-mode . ,newmap) minor-mode-overriding-map-alist))
 )
 
