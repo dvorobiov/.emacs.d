@@ -74,6 +74,7 @@
 
 ;; use solarized-light as the default theme
 (load-theme 'solarized-light t)
+;;(load-theme 'noctilux t)
 (set-face-attribute 'default nil :height 140)
 
 (provide 'prelude-ui)
